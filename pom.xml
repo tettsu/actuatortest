@@ -54,6 +54,13 @@
 			<artifactId>lombok</artifactId>
 		</dependency>
 
+		<!-- for redis -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-redis</artifactId>
+			<version>1.4.7.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
