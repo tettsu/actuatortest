@@ -3,6 +3,8 @@
 ```
 curl localhost:9000/hello-world
 curl localhost:9001/actuator/health
+curl 'http://localhost:9001/actuator/metrics' -X GET -u user:password | jq
+curl 'http://localhost:9001/actuator/metrics/jvm.memory.max' -X GET -u user:password | jq
 ```
 
 # redis startup
